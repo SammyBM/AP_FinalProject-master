@@ -1,0 +1,27 @@
+@page
+@model WebApp.Pages.GroupsModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<div class="row">
+  <h1 class="display-2">Groups</h1>
+  <table class="table">
+    <thead class="thead-inverse">
+      <tr><th>School Groups</th></tr>
+      <tr><td><a class="btn btn-primary" href="subjects">Create new</a></td></tr>
+    </thead>
+    <tbody>
+    @foreach(var group in Model.Groups)
+    {
+      <tr><td>@group.Name</td></tr>
+    }
+    </tbody>
+  </table>
+</div>
+<div class="row">
+
+  @* <form method="POST">
+    <div><input asp-for="Supplier.CompanyName" /></div>
+    <input type="submit" />
+  </form> *@
+
+</div>

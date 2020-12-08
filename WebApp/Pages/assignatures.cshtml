@@ -1,0 +1,26 @@
+@page
+@model WebApp.Pages.AssignaturesModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<div class="row">
+  <h1 class="display-2">Assignments</h1>
+  <table class="table">
+    <thead class="thead-inverse">
+      <tr><th>School Assignments</th></tr>
+    </thead>
+    <tbody>
+    @foreach(var assignature in Model.Assignatures)
+    {
+      <tr><td>@assignature.IdTeacher teaches @assignature.IdSubject to @assignature.IdGroup</td></tr>
+    }
+    </tbody>
+  </table>
+</div>
+<div class="row">
+
+  @* <form method="POST">
+    <div><input asp-for="Supplier.CompanyName" /></div>
+    <input type="submit" />
+  </form> *@
+
+</div>

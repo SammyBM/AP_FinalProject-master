@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/samuel/Desktop/AP_FinalProject-master/AppContext/AppContext.csproj": {}
+  },
+  "projects": {
+    "/home/samuel/Desktop/AP_FinalProject-master/AppContext/AppContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/samuel/Desktop/AP_FinalProject-master/AppContext/AppContext.csproj",
+        "projectName": "AppContext",
+        "projectPath": "/home/samuel/Desktop/AP_FinalProject-master/AppContext/AppContext.csproj",
+        "packagesPath": "/home/samuel/.nuget/packages/",
+        "outputPath": "/home/samuel/Desktop/AP_FinalProject-master/AppContext/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/samuel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/104/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
